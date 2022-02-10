@@ -35,6 +35,92 @@
      </nav>   
     </header>
     <main>
+        <form action="../HTML/formSucess.html" method="POST">
+
+         
+          
+          <table style="border-radius: 20px; margin: auto; width: 50%; font-size: 180%;border-spacing: 50px;text-align: center;background-color: darkgrey; margin-top: 8%;margin-bottom: 8%;">
+              <thead>
+                  <tr>
+                      <td colspan="2" style="font-size: 110%;"><b>COMPLETA LOS DATOS POR FAVOR</b> </td>
+                  </tr>
+              </thead>
+
+              <tbody>
+                  <tr>
+                    <td>
+                       <label for="username"><strong>Nombre de Usuario</strong></label>
+                       <input type="text" name="username" id="username" style="font-size: 70%;">
+                    </td>
+                    <td>
+                        <label for="username"><strong>Correo Electrónico</strong></label>
+                        <input type="text" name="username" id="username" style="font-size: 70%;">
+                     </td>
+                      
+                      
+                  </tr>
+                  <tr>
+                      <td>
+                        <label for="age"><strong>Edad</strong></label>
+                        <input type="number" name="age" id="age" step="1" style="font-size: 70%;">
+                      </td>
+                      <td>
+                         <label for="tel"><strong>Teléfono</strong></label>
+                         <input type="number" name="tel" id="tel" step="1" style="font-size: 70%;">
+                      </td>
+                      
+                  </tr>
+                  <tr>
+                      <td>
+                        <label for="city"><strong>Residencia</strong><br></label>
+                        <select style="font-size: 80%; width: 85%;" name="city" id="city">
+                            <option value="none"></option>
+                            <option value="cali">Cali</option>
+                            <option value="cartagena">Cartagena</option>
+                            <option value="medellin">Medellín</option>
+                            <option value="bogota">Bogotá</option>
+                        </select>
+                      </td>
+
+                      <td>
+                        <label><strong>Género</strong><br></label>
+                        <div >
+                         <input type="radio" id="male" name="drone" value="male">
+                         <label for="male">Masculino</label>
+                         
+                         <input type="radio" id="female" name="drone" value="female">
+                         <label for="female">Femenino</label>
+                         <br>
+                         <input type="radio" id="other" name="drone" value="other">
+                         <label for="other">Otro</label>
+                        </div>
+                      </td>
+                      
+                  </tr>
+                  <tr>
+                      <td colspan="2">
+                          <strong>Comentarios</strong><br>
+                          <textarea name="comments" id="comments" cols="50" rows="10" style="font-size: 70% ;"></textarea>
+                      </td>
+                     
+                      
+                  </tr>
+              </tbody>
+
+              <tfoot>
+                  <tr>
+                      <td colspan="2" style="text-align: right;"> <input style="font-size: 70%; border-radius: 10px;" type="submit" value="Enviar"></td>
+                      
+                  </tr>
+              </tfoot>
+
+          </table>
+
+        </form>
+
+
+
+<!-- 
         <section style="padding: 2%; font-size: 150%; background-color: darkgrey;">
 
             <form action="../HTML/formSucess.html" method="POST">
@@ -107,52 +193,8 @@
                 
             </form>
 
-            <h1>TABLA</h1>
-
-            <table>
-                <thead>
-                    <tr>
-                        <td>Concepto</td>
-                        <td>Unidades</td>
-                        <td>Valor</td>
-                    </tr>
-                </thead>
-
-                <tbody>
-                    <tr>
-                        <td>Lapices</td>
-                        <td>10</td>
-                        <td>5000</td>
-                    </tr>
-                    <tr>
-                        <td>Borradores</td>
-                        <td>5</td>
-                        <td>2000</td>
-                    </tr>
-                    <tr>
-                        <td>Marcadores</td>
-                        <td>6</td>
-                        <td>8000</td>
-                    </tr>
-                    <tr>
-                        <td>Lapiceros</td>
-                        <td>7</td>
-                        <td>7000</td>
-                    </tr>
-                </tbody>
-
-                <tfoot>
-                    <tr>
-                        <td colspan="2">Total</td>
-                        <td>xxxxx</td>
-                    </tr>
-                </tfoot>
-
-            </table>
-
-
         </section>
-        
+         -->
     </main>
     <footer style="padding: 2%; font-size: 100%; background-color:rgb(14, 14, 14); text-align: center;">
         <p style="color: white;">Realizado por Nicolas Diaz</p>
